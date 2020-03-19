@@ -1,14 +1,20 @@
 # kg_compulex_2021
 
 Question: Determine whether a one-to-one character mapping exists from one string, s1, to another string, s2.
+
 For example: 
+
 s1 = abc	s2 = bcd => print true a:b b:c c:d
+
 s1 = foo	s2 = bar => print false character 'o' cannot map to two characters
+
 s1 = bar	s2 = foo => print true b:f a:o r:o
 
 
 Test Cases:
- s1         s2
+
+ s1 --- s2
+ 
 a b c --- b c d
 True
 
